@@ -1,0 +1,31 @@
+{
+  "name": "rock-paper-scissors",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "enzyme": "^3.1.0",
+    "enzyme-adapter-react-16": "^1.0.2",
+    "jest": "^21.2.1",
+    "jest-enzyme": "^4.0.1",
+    "react-scripts": "^1.0.15",
+    "react-test-renderer": "16",
+    "styled-components": "^2.2.2"
+  },
+  "dependencies": {
+    "immutable": "^3.8.2",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-saga": "^0.16.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "npm i -g serve && serve -s build"
+  },
+  "heroku-run-build-script": true
+}
